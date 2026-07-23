@@ -1,8 +1,29 @@
 aid: ascendantfx-capital
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ascendantfx-capital.png
 name: AscendantFX Capital
-description: AscendantFX Capital is a company surfaced as a portfolio company of battery-ventures and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  AscendantFX Capital, now operating as Ascendant, is a global cross-border payments and
+  foreign exchange platform serving businesses and financial institutions. Its aPay platform
+  sends domestic and international payments across global ACH, wire, and local payment rails
+  with competitive FX rates and built-in validation, complemented by FX risk management
+  (forward contracts and multi-currency support), Payee Intelligence bank-detail validation,
+  and Track 360 real-time payment tracking. Ascendant supports 130+ currencies across 200+
+  countries and territories for 3,000+ active customers, and integrates into finance and ERP
+  stacks (NetSuite, QuickBooks, Microsoft Dynamics) via APIs and file-upload workflows. The
+  company is regulated as an FCA Authorized Payments Institution (UK), a FinTRAC-registered
+  and Retail Payments Activities Act payment services provider (Canada), and under US state
+  money-transmitter licensing, and maintains SOC 1 & SOC 2 Type II and NYCRR 500 attestations.
 url: https://raw.githubusercontent.com/api-evangelist/ascendantfx-capital/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +33,62 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-apis: []
+- Payments
+- Cross-Border Payments
+- Foreign Exchange
+- FX
+- International Payments
+- B2B Payments
+- Financial Services
+- Fintech
+apis:
+- name: Ascendant Payments API
+  description: >-
+    Programmatic and file-based integration surface for the Ascendant (AscendantFX) aPay
+    cross-border payments platform, enabling straight-through processing of domestic and
+    international payments from ERP/finance systems. No public OpenAPI or developer reference
+    is published; API access is provisioned through an Ascendant account manager.
+  humanURL: https://www.ascendant.world/payment-solutions
+  baseURL: https://api.ascendant.world
+  tags:
+  - Payments
+  - Cross-Border Payments
+  - Foreign Exchange
+  - ERP Integration
+  properties:
+  - type: DomainSecurity
+    url: security/ascendantfx-capital-domain-security.yml
+common:
+- type: Website
+  url: https://www.ascendant.world
+- type: Login
+  url: https://apay.ascendant.world/
+- type: SignUp
+  url: https://www.ascendant.world/contact-us
+- type: Blog
+  url: https://www.ascendant.world/insights
+- type: Support
+  url: https://www.ascendant.world/faqs/
+- type: PrivacyPolicy
+  url: https://www.ascendant.world/compliance/#privacy
+- type: Compliance
+  url: https://www.ascendant.world/compliance/
+- type: Conformance
+  url: conformance/ascendantfx-capital-conformance.yml
+- type: TrustCenter
+  url: security/ascendantfx-capital-trust-center.yml
+- type: LLMsTxt
+  url: llms/ascendantfx-capital-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

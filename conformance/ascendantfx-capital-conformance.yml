@@ -1,0 +1,45 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.ascendant.world/compliance/
+note: >-
+  Standards, attestations, and regulatory registrations published on the Ascendant
+  (AscendantFX Capital) compliance page. No public OpenAPI is available, so technical
+  API-level conformance (OAuth2/OIDC, RFC 9457, etc.) could not be derived and is
+  omitted rather than assumed.
+standards:
+  - id: soc1-type-ii
+    conforms: true
+    evidence: "Ascendant is SOC 1 & 2 Type II certified (annual audit)."
+  - id: soc2-type-ii
+    conforms: true
+    evidence: "Ascendant is SOC 1 & 2 Type II certified (annual audit)."
+  - id: nydfs-nycrr-500
+    conforms: true
+    evidence: "Maintains 23 NYCRR 500 cybersecurity compliance annually."
+  - id: gdpr
+    conforms: true
+    evidence: "GDPR (Europe) compliance and EU-U.S. Data Privacy Framework policy published."
+  - id: pci-dss
+    conforms: false
+    evidence: "No PCI DSS attestation published on the compliance page."
+  - id: hipaa
+    conforms: false
+    evidence: "Not applicable / not published."
+regulatory:
+  - jurisdiction: UK
+    registration: FCA Authorized Payments Institution
+    authority: Financial Conduct Authority
+  - jurisdiction: Canada
+    registration: Registered Payment Services Provider (Retail Payments Activities Act)
+    authority: Bank of Canada / FinTRAC (money services business registration)
+  - jurisdiction: US
+    registration: State money-transmitter / financial-services licenses
+    authority: State Departments of Banking / Financial Institutions
+compliance_programs:
+  - Anti-Money Laundering (AML)
+  - Anti-Terrorist Financing (ATF)
+  - Sanctions Screening (OFAC)
+  - Bank Secrecy Act (BSA)
+  - PCMLTFA (Canada)
+  - GLBA (US Gramm-Leach-Bliley Act)
+  - PIPEDA (Canada)

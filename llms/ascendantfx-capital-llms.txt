@@ -1,0 +1,32 @@
+# AscendantFX Capital (Ascendant)
+
+> Global cross-border payments and foreign exchange platform serving businesses and financial
+> institutions. The aPay platform sends domestic and international payments across global ACH,
+> wire, and local rails with competitive FX, Payee Intelligence bank-detail validation, FX risk
+> management, and Track 360 real-time payment tracking — 130+ currencies, 200+ countries,
+> 3,000+ active customers. API and file-upload integration into ERP/finance stacks (NetSuite,
+> QuickBooks, Microsoft Dynamics). No public OpenAPI or developer reference is published; API
+> access is provisioned through an Ascendant account manager.
+
+## Company
+- [Website](https://www.ascendant.world)
+- [Payment Solutions / API & Integration](https://www.ascendant.world/payment-solutions)
+- [Insights (Blog)](https://www.ascendant.world/insights)
+- [FAQs (Support)](https://www.ascendant.world/faqs/)
+- [Contact / Request a Demo](https://www.ascendant.world/contact-us)
+- [aPay Login](https://apay.ascendant.world/)
+
+## Compliance
+- [Compliance & Certifications](https://www.ascendant.world/compliance/) — SOC 1 & SOC 2 Type II, 23 NYCRR 500, AML/OFAC/BSA, GDPR
+- [Regulatory Disclosures & Licensing](https://www.ascendant.world/hubfs/Ascendant_February2026/pdfs/Master-Licensing_and_Legal_Disclosures.pdf)
+- Regulated as an FCA Authorized Payments Institution (UK), FinTRAC-registered payment services provider (Canada), and under US state money-transmitter licensing.
+
+## API
+- API host: https://api.ascendant.world (gateway; no public root document)
+- Integration model: APIs and file-upload workflows for straight-through processing from ERP/finance systems.
+
+## Artifacts
+- [Conformance](https://raw.githubusercontent.com/api-evangelist/ascendantfx-capital/refs/heads/main/conformance/ascendantfx-capital-conformance.yml)
+- [Trust Center](https://raw.githubusercontent.com/api-evangelist/ascendantfx-capital/refs/heads/main/security/ascendantfx-capital-trust-center.yml)
+- [Domain Security](https://raw.githubusercontent.com/api-evangelist/ascendantfx-capital/refs/heads/main/security/ascendantfx-capital-domain-security.yml)
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/ascendantfx-capital/refs/heads/main/apis.yml)
