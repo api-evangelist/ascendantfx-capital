@@ -53,7 +53,7 @@ tags:
 - FX
 - International Payments
 - B2B Payments
-- Financial-Services
+- Financial Services
 - Fintech
 tags_raw:
 - Company
@@ -65,6 +65,7 @@ tags_raw:
 - B2B Payments
 - Financial Services
 - Fintech
+- Financial-Services
 apis:
 - name: Ascendant Payments API
   description: >-
